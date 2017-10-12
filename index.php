@@ -1,11 +1,7 @@
 <?php
-
 	date_default_timezone_set('Asia/Tokyo');
 
-
-
 	$path = "";
-
 
 
 /****背景****************************************/
@@ -314,6 +310,7 @@ if($val2 != null){
 
 			<?php endfor; ?>
 		</div>
+<p>俺だー！！</p>
 	<main>
 
 </div>
