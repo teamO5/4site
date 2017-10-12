@@ -32,4 +32,4 @@
 			$user_name = $_SERVER['REMOTE_ADDR'];
 		}
 	}
-?>
+

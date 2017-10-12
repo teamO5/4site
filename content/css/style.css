@@ -302,7 +302,6 @@ a{
 	left: calc(50% - 200px / 2);
 	right: auto;
 
-	display: inline-block;
 	width: 200px;
 	margin-top: 0.5em;
 	padding: 5px;

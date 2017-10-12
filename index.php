@@ -269,7 +269,6 @@ if($val2 != null){
 
 			<?php
 				if($date2[$count] < date("Y-m-d")):
-
 							$str_sql = ("
 								INSERT INTO
 									chat('date', 'text', 'ip')
@@ -278,7 +277,6 @@ if($val2 != null){
 							$stmt = $pdo->prepare($str_sql);
 							$stmt->bindValue(1, date("Y-m-d H:i"), PDO::PARAM_STR);
 							$stmt->execute();
-
 				endif;
 			?>
 			<?php for($i = 1; $i <= $count; $i++): ?>
@@ -310,7 +308,6 @@ if($val2 != null){
 
 			<?php endfor; ?>
 		</div>
-<p>俺だー！！</p>
 	<main>
 
 </div>
