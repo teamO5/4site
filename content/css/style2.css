@@ -1,0 +1,19 @@
+.chat-talk .talk-content {
+
+	position: relative;
+	box-sizing: border-box;
+	max-width: 130px;
+	min-height: 50px;
+	border-radius: 10px;
+  background-color: #fff;
+  margin: 0 auto 0 70px;
+  padding: 1em;
+  word-break: break-word;
+  }
+
+.chat-talk.mytalk .talk-content {
+  margin: 0 70px 0 auto;
+  color: #000;
+  background: #78FF6C;
+  word-break: break-word;
+  }
